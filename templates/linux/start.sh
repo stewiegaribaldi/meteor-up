@@ -38,7 +38,8 @@ else
     --volume=$BUNDLE_PATH:/bundle \
     --hostname="$HOSTNAME-$APPNAME" \
     --env-file=$ENV_FILE \
-    --name=$APPNAME \
+	  --net=mupnet \
+	  --name=$APPNAME \
     meteorhacks/meteord:base
 fi
 
