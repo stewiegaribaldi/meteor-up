@@ -36,10 +36,11 @@ else
     --restart=always \
     --publish=$PORT:80 \
     --volume=$BUNDLE_PATH:/bundle \
+    --volume=~/volume/meteor/logs:/var/log \
     --hostname="$HOSTNAME-$APPNAME" \
     --env-file=$ENV_FILE \
-	  --net=mupnet \
-	  --name=$APPNAME \
+    --net=mupnet \
+    --name=$APPNAME \
     meteorhacks/meteord:base
 fi
 
