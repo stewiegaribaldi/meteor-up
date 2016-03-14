@@ -1,6 +1,6 @@
 {
   "name": "mupx",
-  "version": "1.5.2",
+  "version": "1.5.2.1",
   "description": "Production Quality Meteor Deployments",
   "dependencies": {
     "async": "^0.9.0",
@@ -17,7 +17,7 @@
   "bin": {
     "mupx": "./bin/mup"
   },
-  "author": "Arunoda Susiripala <arunoda.susiripala@gmail.com>",
+  "author": "Arunoda Susiripala 2 <arunoda.susiripala@gmail.com>",
   "repository": {
     "type": "git",
     "url": "git://github.com/arunoda/meteor-up.git"
